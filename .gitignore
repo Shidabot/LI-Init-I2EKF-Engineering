@@ -1,0 +1,29 @@
+# Catkin / CMake outputs
+build/
+devel/
+install/
+logs/
+CMakeFiles/
+CMakeCache.txt
+
+# ROS runtime artifacts
+*.bag
+*.bag.active
+*.db3
+*.pcd
+*.log
+.ros/
+
+# Generated calibration/debug output
+Log/*.txt
+result/*.txt
+
+# Editor / OS files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Large documentation media from the upstream archive
+image/Excitation.gif
+image/*.png
